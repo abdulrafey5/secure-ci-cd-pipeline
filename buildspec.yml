@@ -13,5 +13,5 @@ phases:
       - ./trivy image --exit-code 1 --severity HIGH,CRITICAL myapp
   build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completed on "$(date)"
 
