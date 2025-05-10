@@ -1,0 +1,23 @@
+{
+  "name": "secure-ci-cd-pipeline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulrafey5/secure-ci-cd-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulrafey5/secure-ci-cd-pipeline/issues"
+  },
+  "homepage": "https://github.com/abdulrafey5/secure-ci-cd-pipeline#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
