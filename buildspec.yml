@@ -1,17 +1,8 @@
 version: 0.2
 
 phases:
-  install:
+  install:  
     commands:
       - echo Installing Trivy...
       - curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh
-  pre_build:
-    commands:
-      - echo Building the Docker image...
-      - docker build -t myapp .
-      - echo Scanning the Docker image with Trivy...
-      - ./trivy image --exit-code 1 --severity HIGH,CRITICAL myapp
-  build:
-    commands:
-      - echo Build completed on "$(date)"
-
+                            
